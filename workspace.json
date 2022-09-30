@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "chats": "apps/chats",
+    "users": "apps/users",
+    "types": "libs/types"
+  }
+}

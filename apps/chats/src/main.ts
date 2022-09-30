@@ -8,9 +8,9 @@ import { AppModule } from './app/app.module';
   const app = await NestFactory.create(AppModule);
 
   const configService = app.get(ConfigService);
-  const port = configService.get('PORT') || 3332;
+  const port = configService.get('PORT') || 3333;
 
   await app.listen(port);
 
-  Logger.log(`🚀 Application users is running on: http://localhost:${port}/`);
+  Logger.log(`🚀 Application chats is running on: http://localhost:${port}/`);
 })();
